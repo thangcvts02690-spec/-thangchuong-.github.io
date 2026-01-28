@@ -1,16 +1,21 @@
-    <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <title>CHƯƠNG VĨNH THẮNG</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>chương vĩnh thắng</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <td class="col-image">
-        <img src="channels4_profile.jpg" width="20%" alt="image">
+<table>
+    <tr>
+        <td class="image">
+            <img src="image/channels4_profile.jpg" alt="logo trường">
         </td>
-    <header class="site-header">
+    </tr>
+</table>
+<header class="site-header">
     <div class="container">
     <h1 class="brand">CSS Units Demo</h1>
     <nav class="nav">
@@ -18,7 +23,9 @@
             <a href="#nganhhoc">Ngành học</a>
             <a href="#lienhe">Liên hệ</a>
         </nav>
-       <main class="container">
+    </div>
+</header>
+<main class="container">
 
     <section id="gioithieu">
         <h1>Giới thiệu về Trường FPT</h1>
@@ -31,9 +38,38 @@
             giúp sinh viên có kỹ năng thực tế và sẵn sàng làm việc ngay sau khi tốt nghiệp.
         </p>
     </section>
-<td class="col-image">
-        <img src="picture120250329145034.jpg" width="20%" alt="image">
+    <section class="featured-news">
+    <h2>Tin nổi bật</h2>
+
+    <div class="news-grid">
+        <article class="news-item">
+            <h3>Khai giảng năm học mới 2026</h3>
+            <p>FPT Polytechnic chính thức khai giảng năm học mới với nhiều đổi mới.</p>
+        </article>
+
+        <article class="news-item">
+            <h3>Sinh viên FPT đạt giải quốc gia</h3>
+            <p>Sinh viên ngành CNTT đạt giải cao trong cuộc thi lập trình toàn quốc.</p>
+        </article>
+
+        <article class="news-item">
+            <h3>Học kỳ doanh nghiệp</h3>
+            <p>Sinh viên được thực tập tại doanh nghiệp ngay từ năm thứ hai.</p>
+        </article>
+
+        <article class="news-item">
+            <h3>Ngày hội việc làm</h3>
+            <p>Hơn 50 doanh nghiệp tham gia tuyển dụng sinh viên FPT.</p>
+        </article>
+    </div>
+</section>
+    <table>
+    <tr>
+        <td class="image">
+            <img src="image/picture120250329145034.png" alt="hình trường">
         </td>
+    </tr>
+</table>
     <section id="nganhhoc">
         <h2>Các ngành đào tạo</h2>
         <table>
@@ -59,21 +95,45 @@
             </tr>
         </table>
     </section>
-
-    <section id="lienhe">
-        <h2>Liên hệ</h2>
+</main>
+<footer class="site-footer">
+    <p>© 2026 CSS Units</p>
         <p>Email: fpt@edu.vn</p>
         <p>Website: https://fpt.edu.vn</p>
-    </section>
+</footer>
+<section class="map-section">
+    <h2>Bản đồ vị trí</h2>
 
-</main>
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50736.81898519383!2d106.56347748745827!3d10.804850711733707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752952ef424419%3A0x2c2c459a39ca8f88!2s79%20Billiards%20Club!5e0!3m2!1svi!2s!4v1769409667432!5m2!1svi!2s"
+            width="100%" 
+            height="350" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </div>
-                <footer class="site-footer">
-                    <div class="container">
-                        <p>© 2026 CSS Units</p>
+</section>
+<section class="video-section">
+    <h2>Video giới thiệu</h2>
 
-                    </div>
-                </footer>
+    <div class="video-container">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/s5ZksYnB01A?si=daJMHBMZgfn86Odd" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen></iframe>
+        </iframe>
+    </div>
+</section>
+
+
 </body>
 </html>
 
